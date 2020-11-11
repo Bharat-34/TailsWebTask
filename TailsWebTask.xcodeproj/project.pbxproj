@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13A08677F47066951EA5ADBE /* Pods_TailsWebTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3298DE05DC3BC285DDFDF3D1 /* Pods_TailsWebTaskTests.framework */; };
+		36895A2742EEE1A66EA98565 /* Pods_TailsWebTask_TailsWebTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F99CE75AFAA326687F52B8 /* Pods_TailsWebTask_TailsWebTaskUITests.framework */; };
+		485B7010FE75C96F3EF33687 /* Pods_TailsWebTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62C19129E5BD07DC62602C2 /* Pods_TailsWebTask.framework */; };
+		DB68FF11255B8CD00056124F /* TrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB68FF10255B8CD00056124F /* TrackingViewController.swift */; };
+		DB68FF23255C09B00056124F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB68FF22255C09B00056124F /* GoogleService-Info.plist */; };
+		DB68FF51255C22080056124F /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB68FF50255C22080056124F /* Coordinates.swift */; };
+		DB68FF56255C252F0056124F /* Annotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB68FF55255C252F0056124F /* Annotations.swift */; };
+		DB68FF5B255C2E380056124F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB68FF5A255C2E380056124F /* TableViewController.swift */; };
 		DB9748B3255AD8C9001CD9BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9748B2255AD8C9001CD9BD /* AppDelegate.swift */; };
 		DB9748B5255AD8C9001CD9BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9748B4255AD8C9001CD9BD /* SceneDelegate.swift */; };
 		DB9748B7255AD8C9001CD9BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9748B6255AD8C9001CD9BD /* ViewController.swift */; };
@@ -16,6 +24,7 @@
 		DB9748C2255AD8CB001CD9BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9748C0255AD8CB001CD9BD /* LaunchScreen.storyboard */; };
 		DB9748CD255AD8CC001CD9BD /* TailsWebTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9748CC255AD8CC001CD9BD /* TailsWebTaskTests.swift */; };
 		DB9748D8255AD8CC001CD9BD /* TailsWebTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9748D7255AD8CC001CD9BD /* TailsWebTaskUITests.swift */; };
+		DB9748EB255AF444001CD9BD /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9748EA255AF444001CD9BD /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F5E05A6AB752E69927EF90E /* Pods-TailsWebTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TailsWebTaskTests.release.xcconfig"; path = "Target Support Files/Pods-TailsWebTaskTests/Pods-TailsWebTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		17AF357A46840ADE3CEB054A /* Pods-TailsWebTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TailsWebTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-TailsWebTaskTests/Pods-TailsWebTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3298DE05DC3BC285DDFDF3D1 /* Pods_TailsWebTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TailsWebTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B365562AA5F07F46F899BBC7 /* Pods-TailsWebTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TailsWebTask.release.xcconfig"; path = "Target Support Files/Pods-TailsWebTask/Pods-TailsWebTask.release.xcconfig"; sourceTree = "<group>"; };
+		B5C758E89785CA36E6CC5A07 /* Pods-TailsWebTask-TailsWebTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TailsWebTask-TailsWebTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-TailsWebTask-TailsWebTaskUITests/Pods-TailsWebTask-TailsWebTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B8F99CE75AFAA326687F52B8 /* Pods_TailsWebTask_TailsWebTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TailsWebTask_TailsWebTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB68FF10255B8CD00056124F /* TrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingViewController.swift; sourceTree = "<group>"; };
+		DB68FF22255C09B00056124F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB68FF50255C22080056124F /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		DB68FF55255C252F0056124F /* Annotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotations.swift; sourceTree = "<group>"; };
+		DB68FF5A255C2E380056124F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		DB9748AF255AD8C9001CD9BD /* TailsWebTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TailsWebTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9748B2255AD8C9001CD9BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB9748B4255AD8C9001CD9BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +71,10 @@
 		DB9748D3255AD8CC001CD9BD /* TailsWebTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TailsWebTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9748D7255AD8CC001CD9BD /* TailsWebTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailsWebTaskUITests.swift; sourceTree = "<group>"; };
 		DB9748D9255AD8CC001CD9BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9748EA255AF444001CD9BD /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E6064E9A86A5BC7F99A5985D /* Pods-TailsWebTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TailsWebTask.debug.xcconfig"; path = "Target Support Files/Pods-TailsWebTask/Pods-TailsWebTask.debug.xcconfig"; sourceTree = "<group>"; };
+		F62C19129E5BD07DC62602C2 /* Pods_TailsWebTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TailsWebTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDFDD8A01A81E3E85542CED /* Pods-TailsWebTask-TailsWebTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TailsWebTask-TailsWebTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-TailsWebTask-TailsWebTaskUITests/Pods-TailsWebTask-TailsWebTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				485B7010FE75C96F3EF33687 /* Pods_TailsWebTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13A08677F47066951EA5ADBE /* Pods_TailsWebTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36895A2742EEE1A66EA98565 /* Pods_TailsWebTask_TailsWebTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2728AE76C758FB09EFFED488 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6064E9A86A5BC7F99A5985D /* Pods-TailsWebTask.debug.xcconfig */,
+				B365562AA5F07F46F899BBC7 /* Pods-TailsWebTask.release.xcconfig */,
+				FCDFDD8A01A81E3E85542CED /* Pods-TailsWebTask-TailsWebTaskUITests.debug.xcconfig */,
+				B5C758E89785CA36E6CC5A07 /* Pods-TailsWebTask-TailsWebTaskUITests.release.xcconfig */,
+				17AF357A46840ADE3CEB054A /* Pods-TailsWebTaskTests.debug.xcconfig */,
+				0F5E05A6AB752E69927EF90E /* Pods-TailsWebTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEFF6F53181108B9B33669B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F62C19129E5BD07DC62602C2 /* Pods_TailsWebTask.framework */,
+				B8F99CE75AFAA326687F52B8 /* Pods_TailsWebTask_TailsWebTaskUITests.framework */,
+				3298DE05DC3BC285DDFDF3D1 /* Pods_TailsWebTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB9748A6255AD8C9001CD9BD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +135,8 @@
 				DB9748CB255AD8CC001CD9BD /* TailsWebTaskTests */,
 				DB9748D6255AD8CC001CD9BD /* TailsWebTaskUITests */,
 				DB9748B0255AD8C9001CD9BD /* Products */,
+				2728AE76C758FB09EFFED488 /* Pods */,
+				CEFF6F53181108B9B33669B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +153,12 @@
 		DB9748B1255AD8C9001CD9BD /* TailsWebTask */ = {
 			isa = PBXGroup;
 			children = (
-				DB9748B2255AD8C9001CD9BD /* AppDelegate.swift */,
-				DB9748B4255AD8C9001CD9BD /* SceneDelegate.swift */,
+				DB68FF22255C09B00056124F /* GoogleService-Info.plist */,
+				DB9748E8255AF404001CD9BD /* App & scene Dalegate */,
+				DB9748E9255AF422001CD9BD /* Model */,
 				DB9748B6255AD8C9001CD9BD /* ViewController.swift */,
+				DB68FF10255B8CD00056124F /* TrackingViewController.swift */,
+				DB68FF5A255C2E380056124F /* TableViewController.swift */,
 				DB9748B8255AD8C9001CD9BD /* Main.storyboard */,
 				DB9748BE255AD8CB001CD9BD /* Assets.xcassets */,
 				DB9748C0255AD8CB001CD9BD /* LaunchScreen.storyboard */,
@@ -131,6 +186,25 @@
 			path = TailsWebTaskUITests;
 			sourceTree = "<group>";
 		};
+		DB9748E8255AF404001CD9BD /* App & scene Dalegate */ = {
+			isa = PBXGroup;
+			children = (
+				DB9748B2255AD8C9001CD9BD /* AppDelegate.swift */,
+				DB9748B4255AD8C9001CD9BD /* SceneDelegate.swift */,
+			);
+			path = "App & scene Dalegate";
+			sourceTree = "<group>";
+		};
+		DB9748E9255AF422001CD9BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB9748EA255AF444001CD9BD /* GradientView.swift */,
+				DB68FF50255C22080056124F /* Coordinates.swift */,
+				DB68FF55255C252F0056124F /* Annotations.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB9748DC255AD8CC001CD9BD /* Build configuration list for PBXNativeTarget "TailsWebTask" */;
 			buildPhases = (
+				627251D239A011F56405E534 /* [CP] Check Pods Manifest.lock */,
 				DB9748AB255AD8C9001CD9BD /* Sources */,
 				DB9748AC255AD8C9001CD9BD /* Frameworks */,
 				DB9748AD255AD8C9001CD9BD /* Resources */,
+				CF52640613B0367B339AE39D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB9748DF255AD8CC001CD9BD /* Build configuration list for PBXNativeTarget "TailsWebTaskTests" */;
 			buildPhases = (
+				6B12514C72BAE7C05B677CD4 /* [CP] Check Pods Manifest.lock */,
 				DB9748C4255AD8CC001CD9BD /* Sources */,
 				DB9748C5255AD8CC001CD9BD /* Frameworks */,
 				DB9748C6255AD8CC001CD9BD /* Resources */,
@@ -173,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB9748E2255AD8CC001CD9BD /* Build configuration list for PBXNativeTarget "TailsWebTaskUITests" */;
 			buildPhases = (
+				016B1C4C9460E187DB17045D /* [CP] Check Pods Manifest.lock */,
 				DB9748CF255AD8CC001CD9BD /* Sources */,
 				DB9748D0255AD8CC001CD9BD /* Frameworks */,
 				DB9748D1255AD8CC001CD9BD /* Resources */,
+				D552553031762AD13CAC936A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB9748C2255AD8CB001CD9BD /* LaunchScreen.storyboard in Resources */,
+				DB68FF23255C09B00056124F /* GoogleService-Info.plist in Resources */,
 				DB9748BF255AD8CB001CD9BD /* Assets.xcassets in Resources */,
 				DB9748BA255AD8C9001CD9BD /* Main.storyboard in Resources */,
 			);
@@ -256,6 +336,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		016B1C4C9460E187DB17045D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TailsWebTask-TailsWebTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		627251D239A011F56405E534 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TailsWebTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B12514C72BAE7C05B677CD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TailsWebTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF52640613B0367B339AE39D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TailsWebTask/Pods-TailsWebTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TailsWebTask/Pods-TailsWebTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TailsWebTask/Pods-TailsWebTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D552553031762AD13CAC936A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TailsWebTask-TailsWebTaskUITests/Pods-TailsWebTask-TailsWebTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TailsWebTask-TailsWebTaskUITests/Pods-TailsWebTask-TailsWebTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TailsWebTask-TailsWebTaskUITests/Pods-TailsWebTask-TailsWebTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB9748AB255AD8C9001CD9BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,7 +446,12 @@
 			files = (
 				DB9748B7255AD8C9001CD9BD /* ViewController.swift in Sources */,
 				DB9748B3255AD8C9001CD9BD /* AppDelegate.swift in Sources */,
+				DB68FF56255C252F0056124F /* Annotations.swift in Sources */,
+				DB68FF51255C22080056124F /* Coordinates.swift in Sources */,
+				DB9748EB255AF444001CD9BD /* GradientView.swift in Sources */,
+				DB68FF11255B8CD00056124F /* TrackingViewController.swift in Sources */,
 				DB9748B5255AD8C9001CD9BD /* SceneDelegate.swift in Sources */,
+				DB68FF5B255C2E380056124F /* TableViewController.swift in Sources */,
 				DB9748BD255AD8C9001CD9BD /* TailsWebTask.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +625,7 @@
 		};
 		DB9748DD255AD8CC001CD9BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6064E9A86A5BC7F99A5985D /* Pods-TailsWebTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +645,7 @@
 		};
 		DB9748DE255AD8CC001CD9BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B365562AA5F07F46F899BBC7 /* Pods-TailsWebTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +665,7 @@
 		};
 		DB9748E0255AD8CC001CD9BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17AF357A46840ADE3CEB054A /* Pods-TailsWebTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +688,7 @@
 		};
 		DB9748E1255AD8CC001CD9BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5E05A6AB752E69927EF90E /* Pods-TailsWebTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +711,7 @@
 		};
 		DB9748E3255AD8CC001CD9BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCDFDD8A01A81E3E85542CED /* Pods-TailsWebTask-TailsWebTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +732,7 @@
 		};
 		DB9748E4255AD8CC001CD9BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C758E89785CA36E6CC5A07 /* Pods-TailsWebTask-TailsWebTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
