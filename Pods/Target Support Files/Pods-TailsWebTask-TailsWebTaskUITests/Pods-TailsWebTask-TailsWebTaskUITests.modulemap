@@ -1,0 +1,6 @@
+framework module Pods_TailsWebTask_TailsWebTaskUITests {
+  umbrella header "Pods-TailsWebTask-TailsWebTaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
